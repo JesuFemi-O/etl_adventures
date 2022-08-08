@@ -1,0 +1,151 @@
+############################
+#          PYTHON          #
+############################
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+coverage-report/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+*.log
+
+
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+
+# mypy
+.mypy_cache/
+
+
+############################
+#          SCALA           #
+############################
+
+#
+# JARs aren't checked in, they are fetched by sbt
+#
+/lib/*.jar
+/test/files/codelib/*.jar
+/test/files/lib/*.jar
+/test/files/speclib/instrumented.jar
+/tools/*.jar
+
+# Developer specific properties
+/build.properties
+/buildcharacter.properties
+
+# might get generated when testing Jenkins scripts locally
+/jenkins.properties
+
+# target directory for build
+/build/
+
+# other
+/out/
+/bin/
+/sandbox/
+
+# intellij
+/src/intellij*/*.iml
+/src/intellij*/*.ipr
+/src/intellij*/*.iws
+**/.cache
+/.idea
+/.settings
+
+# vscode
+/.vscode
+
+# Standard symbolic link to build/quick/bin
+/qbin
+
+# sbt's target directories
+/target/
+/project/**/target/
+/test/macro-annot/target/
+/test/files/target/
+/test/target/
+/build-sbt/
+local.sbt
+jitwatch.out
+
+# Used by the restarr/restarrFull commands as target directories
+/build-restarr/
+/target-restarr/
+
+# metals
+.metals
+.bloop
+project/**/metals.sbt
+
+.bsp
+Footer
